@@ -1,0 +1,21 @@
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.5);
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.nav-link {
+  text-transform: capitalize;
+}
+.spinner-border  {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 70px;
+  height: 70px;
+}
