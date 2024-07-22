@@ -6,9 +6,13 @@ const NavBar = ({ setCategory }) => {
       className="navbar navbar-expand-lg bg-body-tertiary text-center"
       data-bs-theme="dark">
       <div className="container">
-        <a className="navbar-brand" href="/">
-          <span className="badge text-dark bg-light fs-5">News Mag</span>
-        </a>
+        <div className="navbar-brand" role="button">
+          <span
+            className="badge text-dark bg-light fs-5"
+            onClick={() => setCategory("general")}>
+            News Mag
+          </span>
+        </div>
         <button
           className="navbar-toggler"
           type="button"
